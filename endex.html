@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAME</title>
+  <link rel="stylesheet" href="XO.css">
+  <style>
+    body {
+      border-color: blue;
+      background-image: url('bcg4.png');
+    }
+
+    .xo {
+      width: 300px;
+      margin: auto;
+    }
+
+    @keyframes move {
+      from {
+        background: rgb(0, 255, 76);
+        transform: translateX(0);
+      }
+
+      to {
+        background: blue;
+        transform: translateX(0px);
+      }
+    }
+
+    @keyframes movae {
+      from {
+        border: 12px solid #ae00ff;
+      }
+
+      to {
+        border: 12px solid #fe0000;
+      }
+    }
+
+    /*animation:movae 3s infinite  ;
+   animation-direction:alternate ;
+   perspective: 1px;*/
+
+    .ttl {
+
+      animation: move 3s infinite;
+      animation-direction: alternate;
+      perspective: 1px;
+
+      width: 180px;
+      text-align: center;
+      font-family: cursive;
+      border: 2px ridge rgb(255, 0, 0);
+      padding: 9px;
+
+      margin-top: 5px;
+      font-size: 30px;
+
+    }
+
+    .cadar {
+      animation: move 3s infinite;
+      animation-direction: alternate;
+      perspective: 1px;
+
+      width: 80px;
+      text-align: center;
+      font-family: cursive;
+      border: 2px ridge rgb(255, 0, 0);
+      padding: 0px;
+
+    }
+
+    .sqr {
+      border-radius: 30px;
+      width: 96px;
+      height: 96px;
+      background-image: linear-gradient(to right, #ae00ff, #3c03c2f9);
+      float: left;
+      margin: 2px;
+
+
+    }
+
+    .sqr1 {
+      border-radius: 30px;
+      width: 96px;
+      height: 96px;
+      background-image: linear-gradient(to right, #ae00ff, #3c03c2f9);
+      float: left;
+      margin: 2px;
+
+
+    }
+
+    .samir {
+      box-shadow: 12px 12px 12px solid #ff0000;
+      border-radius: 30px;
+      margin: auto;
+      margin-left: -250px;
+      margin-top: -120px;
+      background-color: rgba(0, 194, 220, 0.651);
+      width: 800px;
+      height: 500px;
+    }
+
+    .toimg {
+      margin-bottom: 300px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    #img1 {
+
+      width: 69px;
+      height: 69px;
+      padding: 13px;
+
+    }
+
+    .fff {
+
+      display: flex;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <audio class="oda" src="mu2.mp3" loop autoplay muted>
+
+  </audio>
+  <script>
+
+  </script>
+  <div class="xo">
+    <div class="fff">
+      <div class="ttl">
+        <div class="tt">9 + 19 =</div>
+      </div>
+      <div class="cadar"id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+    <div class="sqr1">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">77</h1>
+    </div>
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">33</h1>
+    </div>
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">55</h1>
+    </div>
+
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">88</h1>
+    </div>
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">38</h1>
+    </div>
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">55</h1>
+    </div>
+
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">93</h1>
+    </div>
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">13</h1>
+    </div>
+    <div class="sqr">
+      <h1  id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">13</h1>
+    </div>
+
+    <div class="samir"> </div>
+  </div>
+ 
+  <!--<style>
+    body {
+      background-image: url(https://i.gifer.com/origin/f5/f5baef4b6b6677020ab8d091ef78a3bc.gif);
+    }
+    </style>
+    </head>
+    <body>
+      <audio controls class="oda" src="mp33.mp3" loop autoplay muted>
+    <h1>Hello World!</h1>
+    
+    <p>This paragraph has an image as the background!</p>
+    -->
+
+
+</body>
+
+</html>
