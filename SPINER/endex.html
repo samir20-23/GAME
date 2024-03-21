@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinner</title>
+  <link rel="stylesheet" href="css/SPINER.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div id="values"> 
+    <pre>
+      CREATE PRIZE:
+    <input type="text" id="value1">
+    <input type="text" id="value2">
+    <input type="text" id="value3">
+    <input type="text" id="value4">
+  </pre>
+  </div>
+  <div class="spinner">
+    <div class="wheel" id="wheel">
+      <div class="segment" id="segment1"  style="--deg: 0;"> <h2 id="content1"> Prize 1</h2></div>
+      <div class="segment" id="segment2" style="--deg: 45deg;"> <h2 id="content2"> Prize 2</h2></div>
+      <div class="segment" id="segment3" style="--deg: 90deg;"> <h2 id="content3"> Prize 3</h2></div>
+      <div class="segment" id="segment4" style="--deg: 135deg;"> <h2 id="content4"> Prize 4</h2></div>
+    </div>
+    <button onclick="spinWheel()">Spin</button>
+  </div>
+  <script src="js/SPINER.js"></script>
+  <script>
+  </script>
+</body>
+</html>
