@@ -1,0 +1,100 @@
+
+#navtop{
+    width: 95%;
+    height: 8vh;
+    margin: 0px  22px 0px 22px;
+    border-radius: 2px;
+    font-size: 50px;
+    background:hsl(235, 21%, 21%);
+    color: #869cc4;
+    text-shadow:0 0 1px rgba(0, 0, 0, 0.872);
+}
+#logo{
+   text-align: center;
+   position: relative;
+   bottom: 6px;
+}
+#deathnote{
+animation: moveanime 1s linear ;
+box-shadow: 0 0 12px black;
+}
+@keyframes moveanime{
+    0%{ width: 0px;}
+    100%{ width: 200px;}
+    
+}
+#allepisode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+     gap: 25px;
+}
+#animeepisode{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 204px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 22px;
+    box-shadow: inset 0 0 20px 1px rgb(255, 224, 190);
+}
+ img{
+    width: 200px;
+    height: 45vh;
+    border-radius: 5px;
+    border: 2px solid  black;
+    box-shadow: inset 0 0 60px 62px rgb(255, 255, 255);
+}
+
+#load{
+    transform: translate(-50%,-50%);
+    position: fixed;
+    left: 45%;
+    top: 45%;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    border: 10px dotted black;
+    animation: moveload 1s infinite;
+    opacity: 0.6;
+    display: none;
+
+}
+@keyframes moveload {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+/* episodes */
+
+#anime{
+    margin-top: 70px;
+    overflow: hidden;
+    background-color: #50657528;
+    background-image: linear-gradient(to right bottom, rgba(255,  255, 255, .9), transparent);
+    color:black;
+    text-align: center;
+    
+}
+.episode{
+    padding: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+    transition: all .3s ease-in-out;
+}
+#numbers{
+    color: red;
+}
+#finale{
+    width: 50%;
+    height:280px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0px 0px 0px ;
+}
+i{
+    color: #ff0000;
+}
