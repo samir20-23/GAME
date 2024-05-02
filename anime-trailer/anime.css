@@ -1,0 +1,83 @@
+ /* أضف أي CSS هنا حسب التصميم */
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #04002a;
+  }
+  #content {  
+    padding: 100px 0;
+    background: rgb(0, 0, 0);
+    gap: 12px; 
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+/* LOGOS */
+ 
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 57px;
+  left: 9px;
+    
+}
+#logo img{
+  width: 60px;
+
+}
+#logo h1{
+  font-size: 20px;
+ text-shadow: 0 0 12px black;
+
+}
+  .img {
+    width: 222px;
+    height:320px;
+    border: 1px solid #000000;
+    box-shadow: inset 0 0 12px 2px rgb(115, 115, 115);
+    margin-bottom: 10px;
+    padding: 10px;
+   
+  }
+  .text {
+    max-width: 500px;
+    width: 100%;
+    height: 150px;
+    overflow: auto; 
+    border: 1px solid wheat;
+}
+
+  #searchall{
+    position: fixed;
+    top: -20px;
+    margin: 30px 0;
+    width: 100%;
+  }
+  #search{
+    width:230px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgb(0, 0, 0);
+  }
+  #submit{
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+
+  }
+h1{
+  text-shadow: 0 0 5px wheat;
+}
+.video-iframe{
+  width: 100%;
+  height: 270px;
+  border: 2px solid wheat;
+}
